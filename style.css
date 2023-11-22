@@ -1,0 +1,219 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(images/banner.jpeg);
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    font-weight: bold;
+
+}
+
+.music {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgb(0, 255, 76), rgb(0, 162, 255));
+    font-weight: bold;
+}
+
+.arcticmonkeys {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(images/arcticm.jpeg);
+    font-weight: bold;
+}
+
+.taylor {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(images/taylorr.jpeg);
+    font-weight: bold;
+}
+
+.bruno {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(images/brunoms.jpeg);
+    font-weight: bold;
+}
+
+.weekend {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(images/weekend.jpeg);
+    font-weight: bold;
+
+}
+
+.player {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px !important;
+}
+
+.wrapper {
+    margin-top: 10px !important;
+    width: 80%;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.track-art {
+    margin: 25px;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border-radius: 5px;
+}
+
+.now-playing {
+    font-size: 1rem;
+}
+
+.track-name {
+    font-size: 2.5rem;
+}
+
+.track-artist {
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+
+.list {
+    background-color: #000000;
+}
+
+
+.playpause-track,
+.prev-track,
+.next-track {
+    padding: 25px;
+    transition: opacity .2s;
+    color: #000000;
+}
+
+.playpause-track:hover,
+.prev-track:hover,
+.next-track:hover {
+    color: #646464;
+}
+
+.volume_slider_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seek_slider,
+.volume_slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+    background: rgb(204, 204, 204);
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.seek_slider::-webkit-slider-thumb,
+.volume_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: black !important;
+    border: 3px solid #0066ff;
+    cursor: grab;
+    border-radius: 100%;
+}
+
+.seek_slider:hover,
+.volume_slider:hover {
+    opacity: 1.0;
+    background-color: #646464;
+    cursor: pointer;
+}
+
+.seek_slider {
+    width: 60%;
+}
+
+.volume_slider {
+    width: 30%;
+}
+
+.current-time,
+.total-duration {
+    padding: 10px;
+}
+
+i.fa-volume-down,
+i.fa-volume-up {
+    padding: 10px;
+}
+
+i,
+i.fa-play-circle,
+i.fa-pause-circle,
+i.fa-step-forward,
+i.fa-step-backward,
+p {
+    cursor: pointer;
+}
+
+
+
+.tracks .song button i {
+    font-size: 1.5em;
+}
+
+.tracks .song:not(:first-child) {
+    margin-top: 15px;
+}
+
+.tracks .song .img {
+    height: 70px;
+    width: 80px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.tracks .song .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
