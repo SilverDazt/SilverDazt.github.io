@@ -76,7 +76,6 @@ function playpauseTrack() {
     isPlaying ? pauseTrack() : playTrack();
 }
 function playTrack() {
-    curr_track.play();
     isPlaying = true;
     playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
 }
