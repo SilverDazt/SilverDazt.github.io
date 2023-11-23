@@ -26,7 +26,7 @@ const music_list = [
         img: 'images/here.jpeg',
         name: 'Here With Me',
         artist: 'd4vd',
-        music: 'music/herewithme.mp3'
+        music: 'blob/master/music/herewithme.mp3'
     },
     {
         img: 'images/twil.jpg',
