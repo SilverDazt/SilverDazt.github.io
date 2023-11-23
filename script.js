@@ -26,37 +26,37 @@ const music_list = [
         img: 'images/here.jpeg',
         name: 'Here With Me',
         artist: 'd4vd',
-        music: 'blob/master/music/herewithme.mp3'
+        music: './music/herewithme.mp3'
     },
     {
         img: 'images/twil.jpg',
         name: 'Thats What I Like',
         artist: 'Bruno Mars',
-        music: 'music/Thats What I Like.mp3'
+        music: './music/Thats What I Like.mp3'
     },
     {
         img: 'images/ratherbe.jpeg',
         name: 'Rather Be',
         artist: 'Clean Bandit',
-        music: 'music/Rather Be.mp3'
+        music: './music/Rather Be.mp3'
     },
     {
         img: 'images/shakeitof.jpeg',
         name: 'Shake It Of',
         artist: 'Taylor Swift',
-        music: 'music/ShakeItOf.mp3'
+        music: './music/ShakeItOf.mp3'
     },
     {
         img: 'images/bs.png',
         name: 'Blank Space',
         artist: 'Taylor Swift',
-        music: 'music/blankspace.mp3'
+        music: './music/blankspace.mp3'
     },
     {
         img: 'images/antihero.png',
         name: 'Anti Hero',
         artist: 'Taylor Swift',
-        music: 'music/antihero.mp3'
+        music: './music/antihero.mp3'
     },
     {
         img: 'images/st.jpg',
